@@ -7,9 +7,8 @@ import {
 	ScrollView,
 	AsyncStorage
 } from 'react-native';
-import { LinearGradient } from 'expo';
+import { LinearGradient } from 'expo-linear-gradient';
 import uuid from 'uuid/v1';
-
 import { primaryGradientArray } from './utils/Colors';
 import Header from './components/Header';
 import SubTitle from './components/SubTitle';
